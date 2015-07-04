@@ -1,0 +1,26 @@
+{
+	"name":         "utctolocaljs",
+	"version":      "0.0.1",
+	"authors": [
+		"Brock<0xbrock@noreply.github.com>"
+	],
+	"description": "Demo javascript to convert UTC datetimes to Local datetime.",
+	"main":        "app/index.html",
+	"keywords":    [
+		"Demo, javascript, to, convert, UTC, datetimes, to, Local, datetime."
+	],
+	"license":     "MIT",
+	"homepage":    "somedomain.com",
+	"ignore":      [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"app/bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"jquery": "*",
+		"bootstrap": "*"
+	}
+}

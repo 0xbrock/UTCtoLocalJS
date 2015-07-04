@@ -1,0 +1,16 @@
+{
+  "generator-html5-app": {
+    "stylesheet": "css",
+    "appname": "UTCtoLocalJS",
+    "script": "js",
+    "markup": "html",
+    "build": "grunt",
+    "testFramework": "jasmine",
+    "includejQuery": true,
+    "description": "Demo javascript to convert UTC datetimes to Local datetime.",
+    "authorName": "Brock",
+    "authorEmail": "0xbrock@noreply.github.com",
+    "authorURL": "somedomain.com",
+    "license": "MIT"
+  }
+}

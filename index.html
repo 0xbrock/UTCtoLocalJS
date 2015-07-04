@@ -1,0 +1,68 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class = "no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class = "no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class = "no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class = "no-js"> <!--<![endif]-->
+	<head>
+		<meta charset = "utf-8">
+		<meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+		<title>UTCtoLocalJS</title>
+		<meta name = "description" content = "Demo javascript to convert UTC datetimes to Local datetime.">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<!-- build:css styles/vendor.css -->
+		<!-- bower:css -->
+		<!-- endbower -->
+		<link rel="stylesheet" href="app/bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="app/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+		<!-- endbuild -->
+		<!-- build:css(.tmp) styles/main.css -->
+		<link rel="stylesheet" href="styles/main.css">
+		<!-- endbuild -->
+	</head>
+	<body>
+		<!--[if lt IE 10]>
+		<p class = "browsehappy">You are using an <strong>outdated</strong> browser. Please
+			<a href = "http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<div class = "container">
+			<main role = "main">
+				<header>
+					<h1>UtcToLocalJS Example</h1>
+					<p>All times rendered in the source are in UTC and converted to the browser's local time.</p>
+				</header>
+
+				<p>
+					<time datetime="6/25/2015 7:05:08 PM UTC">6/25/2015 7:05:08 PM UTC</time>
+  			</p>
+				<p>
+					<time datetime="6/1/2015 12:11:32 AM UTC">6/1/2015 12:11:32 AM UTC</time>
+				</p>
+				<p>
+					<time datetime="7/4/2015 5:25:38 PM UTC">7/4/2015 5:25:38 PM UTC</time>
+				</p>
+				<p>
+					<time datetime="7/23/2015 7:34:20 PM UTC">7/23/2015 7:34:20 PM UTC</time>
+				</p>
+			</main>
+		</div>
+		<!-- build:js scripts/vendor.js -->
+		<!-- bower:js -->
+		<script src="app/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="app/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+		<script src="scripts/main.js"></script>
+		<script type="text/javascript">
+			$(function() { UtcTimesToLocal(); });
+		</script>
+		<!-- endbower -->
+		<!-- endbuild -->
+
+		<!-- TODO: Google Analytics -->
+	</body>
+</html>
